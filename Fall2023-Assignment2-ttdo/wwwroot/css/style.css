@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Berkshire+Swash&family=Borel&family=Emilys+Candy&family=Libre+Baskerville&family=Parisienne&family=Roboto&family=Roboto+Serif:opsz@8..144&display=swap');
+
+body {
+    font-family: 'Roboto Serif', serif;
+}
+
+.hero {
+    background: url("../Night_Sky.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    opacity: 0.9;
+    z-index: -1; 
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    color: white !important;
+    font-size: 8rem !important;
+    margin-bottom: 3% !important; 
+}
+
+.container {
+    height: 100vh; 
+}
+
+#query {
+    background: url("../Search_40x40.svg") no-repeat scroll 3px 3px;
+    padding-left: 4%;
+    min-height: 50px; 
+    background-color: white; 
+}
+
