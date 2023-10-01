@@ -4,6 +4,10 @@
 <head>
     <link rel="stylesheet" href="../css/style.css">
     <script type="text/javascript" src="../js/script.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+            integrity="sha384-6nNC/3GtcCDYvwICSu7S4cRYhH0K27ldVvFKPklU4TmJJBlXj7czbf4ne8tj+I6Q"
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
             integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
             crossorigin="anonymous"></script>
@@ -20,15 +24,16 @@
           crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous">
-    </script>
+            crossorigin="anonymous"></script>
     <title>HuntHub</title>
 </head>
 
 <body>
     <div class="hero"></div>
-    <div class="container d-flex flex-column align-items-center pt-5" >
+    <div class="container d-flex flex-column align-items-center pt-5">
         <h1>HuntHub</h1>
+        <dotlottie-player id="halloween-lottie" src="https://lottie.host/18a8783a-d88a-4f14-a48d-723691da7e74/EkVjlCOozP.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+
         <input class="w-50 rounded-pill" type="text" id="query" placeholder="Search the web" />
         <div class="container d-flex flex-row align-items-start justify-content-center p-4 gap-3" id="buttons-container">
             <button id="searchButton" class="btn btn-light">Search</button>

@@ -20,7 +20,6 @@ h1 {
     font-family: 'Berkshire Swash', cursive;
     color: white !important;
     font-size: 8rem !important;
-    margin-bottom: 3% !important; 
 }
 
 .container {
@@ -32,5 +31,14 @@ h1 {
     padding-left: 4%;
     min-height: 50px; 
     background-color: white; 
+}
+
+#searchResults, #time {
+    visibility: hidden; 
+}
+
+#halloween-lottie {
+    margin: -5%;
+    margin-bottom: -3%; 
 }
 

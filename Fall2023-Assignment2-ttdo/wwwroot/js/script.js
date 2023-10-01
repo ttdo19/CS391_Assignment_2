@@ -6,6 +6,8 @@ function apiSearch() {
         'mkt': 'en-us'
     };
 
+    $('#searchResults').css('visibility', 'visible');
+
     $.ajax({
         url: 'https://api.bing.microsoft.com/v7.0/search?' + $.param(params),
         type: 'GET',
