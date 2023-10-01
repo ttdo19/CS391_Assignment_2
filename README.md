@@ -1,7 +1,7 @@
 # CS391_Assignment_2
 
 ## Demo
-![](http://g.recordit.co/rgzuaKOWDF.gif)
+![](http://g.recordit.co/gQgi3WQkSX.gif)
 
 ## Requirements
 
