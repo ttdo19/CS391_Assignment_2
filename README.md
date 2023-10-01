@@ -1,5 +1,8 @@
 # CS391_Assignment_2
 
+## Demo
+![](http://g.recordit.co/rgzuaKOWDF.gif)
+
 ## Requirements
 
 - All CSS and JS code must be contained within their respective files
