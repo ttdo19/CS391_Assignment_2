@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AQKrfuFxLOlTiPS4u3a+PUL1439acLzznq+9gvwope0=",
+  "Hash": "p+GzdxXLwCQwCtNlxKvxrFVW7yZebveME60GQg2d1CA=",
   "Source": "Fall2023-Assignment2-ttdo",
   "BasePath": "_content/Fall2023-Assignment2-ttdo",
   "Mode": "Default",
@@ -1137,23 +1137,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Search_40x40.svg"
-    },
-    {
-      "Identity": "/Users/trangdo/Projects/Fall2023-Assignment2-ttdo/Fall2023-Assignment2-ttdo/wwwroot/Search_50x50.svg",
-      "SourceId": "Fall2023-Assignment2-ttdo",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/trangdo/Projects/Fall2023-Assignment2-ttdo/Fall2023-Assignment2-ttdo/wwwroot/",
-      "BasePath": "_content/Fall2023-Assignment2-ttdo",
-      "RelativePath": "Search_50x50.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Search_50x50.svg"
     }
   ]
 }

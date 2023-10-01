@@ -18,7 +18,7 @@ body {
 
 #searchEngineName {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 8rem !important;
+    font-size: 8rem;
     cursor: pointer;
     color: white; 
 }
@@ -35,7 +35,7 @@ body {
 }
 
 #searchResults, #time {
-    visibility: visible; 
+    visibility: hidden; 
 }
 
 #halloween-lottie {
@@ -43,3 +43,19 @@ body {
     margin-bottom: -3%; 
 }
 
+.no-close .ui-dialog-titlebar-close {
+    color: black; 
+}
+
+button:hover {
+    transform: scale(1.1); 
+}
+
+.ui-dialog-titlebar {
+    background-color: #c2c2c2;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/aui/6.0.1/aui/css/icons/aui-icon-close.png);
+    z-index: 999999;
+}

@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets/Search_40x40.svg"
     },
     {
-      "Id": "/Users/trangdo/Projects/Fall2023-Assignment2-ttdo/Fall2023-Assignment2-ttdo/wwwroot/Search_50x50.svg",
-      "PackagePath": "staticwebassets/Search_50x50.svg"
-    },
-    {
       "Id": "/Users/trangdo/Projects/Fall2023-Assignment2-ttdo/Fall2023-Assignment2-ttdo/wwwroot/css/style.css",
       "PackagePath": "staticwebassets/css/style.css"
     },

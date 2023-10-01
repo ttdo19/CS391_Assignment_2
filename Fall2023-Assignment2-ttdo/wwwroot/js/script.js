@@ -26,10 +26,13 @@ function apiSearch() {
 
             $('#searchResults').html(results);
             $('#searchResults').dialog({
-                width: 1000,
-                height: 450,
+                width: $(window).width(),
+                height: $(window).height()*2/3,
                 title: 'Search Results for \"' + $('#query').val() + '\"',
-                position: { my: "center bottom", at: "center bottom", of: "#buttons-container", collision: "none" }
+                position: { my: "bottom", at: "bottom", of: "#buttons-container" },
+                close: function (event, ui) {
+                    closeDialog(); 
+                },
             });
         })
         .fail(function () {
@@ -39,8 +42,10 @@ function apiSearch() {
 
 function getCurrentTime() {
     const date = new Date();
-    const hour = date.getHours();
-    const min = date.getMinutes();
+    let hour = date.getHours();
+    let min = date.getMinutes();
+    if (hour < 10) hour = '0' + hour;
+    if (min < 10) min = '0' + min; 
     var time = 'The current time is ' + hour + ':' + min + '.';
     $('#time').css('visibility', 'visible');
     $('#time').html(time);
@@ -64,8 +69,15 @@ function changeBackground() {
     }
 }
 
+function closeDialog() {
+    $('#searchEngineName').css('font-size', '8rem');
+    $('#halloween-lottie').css('display', 'block');
+}
+
 $('#searchButton').click(function () {
-    apiSearch(); 
+    apiSearch();
+    $('#searchEngineName').css('font-size', '4rem');
+    $('#halloween-lottie').css('display', 'none'); 
 }); 
 
 $('#timeButton').click(function () {
