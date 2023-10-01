@@ -16,14 +16,15 @@ body {
     z-index: -1; 
 }
 
-h1 {
+#searchEngineName {
     font-family: 'Berkshire Swash', cursive;
-    color: white !important;
     font-size: 8rem !important;
+    cursor: pointer;
+    color: white; 
 }
 
 .container {
-    height: 100vh; 
+    height: 100vh;
 }
 
 #query {
@@ -34,7 +35,7 @@ h1 {
 }
 
 #searchResults, #time {
-    visibility: hidden; 
+    visibility: visible; 
 }
 
 #halloween-lottie {

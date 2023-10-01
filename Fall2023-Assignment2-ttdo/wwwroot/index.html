@@ -31,13 +31,14 @@
 <body>
     <div class="hero"></div>
     <div class="container d-flex flex-column align-items-center pt-5">
-        <h1>HuntHub</h1>
+        <h1 id="searchEngineName">HuntHub</h1>
         <dotlottie-player id="halloween-lottie" src="https://lottie.host/18a8783a-d88a-4f14-a48d-723691da7e74/EkVjlCOozP.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
 
         <input class="w-50 rounded-pill" type="text" id="query" placeholder="Search the web" />
         <div class="container d-flex flex-row align-items-start justify-content-center p-4 gap-3" id="buttons-container">
-            <button id="searchButton" class="btn btn-light">Search</button>
-            <button id="showTime" type="button" class="btn btn-light">Current Time</button>
+            <button id="searchButton" class="btn btn-primary">Search</button>
+            <button id="timeButton" class="btn btn-secondary">Current Time</button>
+            <button id="luckyButton" class="btn btn-secondary">I'm feeling lucky</button>
         </div>
         <div id="searchResults"></div>
         <div id="time"></div>

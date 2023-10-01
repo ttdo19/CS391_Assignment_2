@@ -1,4 +1,39 @@
 ﻿<Properties StartupConfiguration="{9414DDAB-5A9C-4B10-B59E-FB78EA2E5333}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/trangdo/Projects/Fall2023-Assignment2-ttdo/Fall2023-Assignment2-ttdo/wwwroot/js/script.js" relfile="Fall2023-Assignment2-ttdo/wwwroot/js/script.js" line="45" column="1" />
+      <Breakpoint file="/Users/trangdo/Projects/Fall2023-Assignment2-ttdo/Fall2023-Assignment2-ttdo/wwwroot/js/script.js" relfile="Fall2023-Assignment2-ttdo/wwwroot/js/script.js" line="47" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Fall2023-Assignment2-ttdo FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Fall2023-Assignment2-ttdo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fall2023-Assignment2-ttdo/wwwroot/index.html">
+    <Files>
+      <File FileName="Fall2023-Assignment2-ttdo/Program.cs" Line="17" Column="23" IsPinned="True" />
+      <File FileName="Fall2023-Assignment2-ttdo/wwwroot/index.html" Line="40" Column="35" />
+      <File FileName="Fall2023-Assignment2-ttdo/wwwroot/js/script.js" Line="62" Column="19" />
+      <File FileName="Fall2023-Assignment2-ttdo/wwwroot/css/style.css" Line="42" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fall2023-Assignment2-ttdo" expanded="True">
+            <Node name="Fall2023-Assignment2-ttdo">
+              <Node name="wwwroot">
+                <Node name="css" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="jquery" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="index.html" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
